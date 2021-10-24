@@ -108,6 +108,18 @@ extra small <576pc */
         color: white;
         margin-bottom: 20px;
     }
+    .head4 .container .col-12 .form-niline .text-inp{
+        background: #F4F5Ff; 
+        width: 270px; 
+        height: 50px; 
+        margin-bottom: 10px;
+        
+    }
+    .head4 .container .col-12 .form-niline .s-btn{
+        background: #18191F; 
+        height: 50px;  
+        color: white;
+    }
     
     .head5{
         padding: 40px 0px;
@@ -268,6 +280,18 @@ extra small <576pc */
     line-height: 54px;
     color: white;
     margin-bottom: 20px;
+}
+.head4 .container .col-12 .form-niline .text-inp{
+    background: #F4F5Ff; 
+    width: 270px; 
+    height: 50px; 
+    margin-bottom: 10px;
+    
+}
+.head4 .container .col-12 .form-niline .s-btn{
+    background: #18191F; 
+    height: 50px;  
+    color: white;
 }
 
 .head5{
@@ -440,6 +464,18 @@ extra small <576pc */
 .head4 .container .col-12 .form-niline
 {
     margin-left: 25px;
+}
+.head4 .container .col-12 .form-niline .text-inp{
+    background: #F4F5Ff; 
+    width: 270px; 
+    height: 50px; 
+    margin-bottom: 10px;
+    
+}
+.head4 .container .col-12 .form-niline .s-btn{
+    background: #18191F; 
+    height: 50px;  
+    color: white;
 }
 
 .head5{
