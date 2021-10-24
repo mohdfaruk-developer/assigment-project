@@ -1,0 +1,154 @@
+
+
+.menu{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+
+.head1{
+    width: 100%;
+    padding: 100px 0px 80px 0px;
+}
+.head1 .container .col-md-6 h2{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.head1 .container .col-md-6 button{
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.head1 .container .col-md-6 img{
+    width: 100%;
+}
+
+.head2{
+    width: 100%;
+    padding: 20px 0px 80px 0px;
+}
+
+.head2 .container .col-12 h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.head2 .container .col-md-4 img,.head2 .container .col-md-block img {
+    width: 300px;
+}
+.head2 .container .col-md-4 h1,.head2 .container .col-md-block h1{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: left;
+}
+.head2 .container .col-md-4 p, .head2 .container .col-md-block p{
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.head3{
+    width: 100%;
+    padding: 80px 0px;
+}
+.head3 .circle{
+    width: 400px;
+    height: 400px;
+    background-color: #F1E4FF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+}
+
+.head3 .col-12 h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.head3 .col-lg-3 .card1{
+    width: 15rem; 
+    height:14rem;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 15px grey;
+}
+.head3 .col-lg-3 .card1 img{
+    position: absolute;
+    bottom: 20px;
+}
+
+.head4{
+    padding: 40px 0px 80px 0px;
+}
+
+.head4 .container{
+    background: linear-gradient(to  right, #8C30F5,hsl(268, 89%, 72%));
+    padding: 40px 0px;
+    border-radius: 16px;
+}
+.head4 .container .col-lg-6 h1{
+    font-size: 40px;
+    line-height: 54px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.head5{
+    padding: 40px 0px;
+    background: #000000;
+    color: white;
+}
+
+.head5 .col-lg-9 p{
+    font-size: 22px;
+    color: white;
+    line-height: 50px;
+}
+
+.head5 .col-lg-9 p a{
+    color: white;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.head5 .col-lg-9 p a:hover{
+    color: blue;
+}
+
+.head5 .container .row .col-lg-3 img{
+    width: 200px;
+    margin-top: 20px;
+    border: 2px solid silver;
+    border-radius: 16px;
+}
+
+.blogs {
+    padding: 60px 0px;
+    width: 100%;
+}
+.blogs .col h1{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #18191F;
+}
+
+.blogs .col p{
+    margin-bottom: 20px;
+}
+.blogs .col img{
+    width: 1110px;
+    height: 400px;
+}
+
+.blogs .col .cont{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 40px;
+}
