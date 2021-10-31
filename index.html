@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Project</title>
+        <title>Bootstrap Example</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/bootstrap.css">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/mediaquery.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
   <body>
+    
     <div class="menu my-2">
       <div class="container my-2">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: transparent;">
           <a href="#" class="navbar-brand"><img src="./image/logo1.png" alt=""></a>
 
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#coldiv">
+          <button class="navbar-toggler" data-toggler="collapse" data-target="#coldiv">
             <span class="navbar-toggler-icon"></span>
           </button>
           
@@ -25,10 +27,7 @@
               <li class="nav-item"><a href="" class="nav-link">pricing</a></li>
               <li class="nav-item"><a href="" class="nav-link">blog</a></li>
               <li class="nav-item"><a href="" class="nav-link">jops</a></li>
-              <li class="nav-item dropdown">
-                <a href="" class="nav-link  dropdown-toggle" data-toggle="dropdown" >
-                  More
-                </a>
+              <li class="nav-item"><a href="" class="nav-link dropdown-toggle" data-toggler="dropdowm">more</a>
                 <div class="dropdown-menu">
                   <a href="" class="dropdown-item">link1</a>
                   <a href="" class="dropdown-item">link2</a>
@@ -49,7 +48,7 @@
           <div class="col-md-6 order-md-last">
             <img src="./image/header.jpg" alt="">
           </div>
-          <div class="col-md-6 ">
+          <div class="col-md-6 " data-aos="zoom-in">
             <h2>Lorem ipsum dolor sit amet</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</p>
             <p><button type="button" class="btn " style="background-color: darkorchid; color: white;" >Button</button></p>
@@ -62,34 +61,34 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-left h1-head2"><h1>Blogs</h1></div>
-          <div class="col-md-4 col-sm-6">
-            <a href="./html/blogs.html"><img src="./image/phone1.png" alt=""></a>
-            <a href="./html/blogs.html"><h1>Project Title</h1></a>
+          <div class="col-md-4 col-sm-6" data-aos="slide-up">
+            <a href="./blogs.html"><img src="./image/phone1.png" alt=""></a>
+            <a href="./blogs.html"><h1>Project Title</h1></a>
             <p>iOS, IoT</p>
           </div>
-          <div class="col-md-4 col-sm-6">
-            <a href="./html/blogs.html"><img src="./image/phone4.png" alt=""></a>
-            <a href="./html/blogs.html"><h1>Project Title</h1></a>
+          <div class="col-md-4 col-sm-6" data-aos="slide-up">
+            <a href="./blogs.html"><img src="./image/phone4.png" alt=""></a>
+            <a href="./blogs.html"><h1>Project Title</h1></a>
             <p>Android, IoT</p>
           </div>
-          <div class="col-md-4 col-sm-6"> 
-            <a href="./html/blogs.html"><img src="./image/phone2.png" alt=""></a>
-            <a href="./html/blogs.html"><h1>Project Title</h1></a>
+          <div class="col-md-4 col-sm-6" data-aos="slide-up"> 
+            <a href="./blogs.html"><img src="./image/phone2.png" alt=""></a>
+            <a href="./blogs.html"><h1>Project Title</h1></a>
             <p>iOS, IoT</p>
           </div>
-          <div class="col-md-4 col-sm-6 d-none d-md-block ">
-            <a href="./html/blogs.html"><img src="./image/phone2.png" alt=""></a>
-            <a href="./html/blogs.html"><h1>Project Title</h1></a>
+          <div class="col-md-4 col-sm-6 d-none d-md-block " data-aos="slide-up">
+            <a href="./blogs.html"><img src="./image/phone2.png" alt=""></a>
+            <a href="./blogs.html"><h1>Project Title</h1></a>
             <p>iOS, IoT</p>
           </div>
-          <div class="col-md-4 col-sm-6">
-            <a href="./html/blogs.html"><img src="./image/phone3.png" alt=""></a>
-            <a href="./html/blogs.html"><h1>Project Title</h1></a>
+          <div class="col-md-4 col-sm-6" data-aos="slide-up">
+            <a href="./blogs.html"><img src="./image/phone3.png" alt=""></a>
+            <a href="./blogs.html"><h1>Project Title</h1></a>
             <p>Android, IoT</p>
           </div>
-          <div class="col-md-4 col-sm-6 d-none d-md-block ">
-            <a href="./html/blogs.html"><img src="./image/phone4.png" alt=""></a>
-            <a href="./html/blogs.html"><h1>Project Title</h1></a>
+          <div class="col-md-4 col-sm-6 d-none d-md-block " data-aos="slide-up">
+            <a href="./blogs.html"><img src="./image/phone4.png" alt=""></a>
+            <a href="./blogs.html"><h1>Project Title</h1></a>
             <p>Android, IoT</p>
           </div>
         </div>
@@ -103,7 +102,7 @@
           <div class="col-12"><h1>Discover the key features</h1></div>
 
               <div class="col-lg-3 col-md-4 col-sm-6 ">
-                <div class="card card1" >
+                <div class="card card1" data-aos="slide-right">
                   <div class="card-body">
                     <h2 class="card-title">Mobile Responsive</h2>
                     <img src="./image/Feature Icons/01.png" alt="" class="card-img-down">
@@ -111,7 +110,7 @@
                 </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card card1" >
+                <div class="card card1" data-aos="slide-right">
                   <div class="card-body">
                     <h2 class="card-title">User Friendly</h2>
                     <img src="./image/Feature Icons/02.png" alt="" class="card-img-down">
@@ -119,7 +118,7 @@
                 </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card card1" >
+                <div class="card card1" data-aos="slide-left">
                   <div class="card-body">
                     <h2 class="card-title">Well Organised layers</h2>
                     <img src="./image/Feature Icons/03.png" alt="" class="card-img-down">
@@ -127,7 +126,7 @@
                 </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card card1" >
+                <div class="card card1" data-aos="slide-left">
                   <div class="card-body">
                     <h2 class="card-title">Easily Customisable</h2>
                     <img src="./image/Feature Icons/04.png" alt="" class="card-img-down">
@@ -137,7 +136,7 @@
 
 
               <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card card1" >
+                <div class="card card1" data-aos="slide-right">
                   <div class="card-body">
                     <h2 class="card-title">Better Components</h2>
                     <img src="./image/Feature Icons/05.jpg" alt="" class="card-img-down">
@@ -145,7 +144,7 @@
                 </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card card1" >
+                <div class="card card1" data-aos="slide-right">
                   <div class="card-body">
                     <h2 class="card-title">Multiple Blocks</h2>
                     <img src="./image/Feature Icons/06.jpg" alt="" class="card-img-down">
@@ -153,7 +152,7 @@
                 </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card card1" >
+                <div class="card card1" data-aos="slide-left">
                   <div class="card-body">
                     <h2 class="card-title">Robust Workflow</h2>
                     <img src="./image/Feature Icons/07.png" alt="" class="card-img-down">
@@ -161,7 +160,7 @@
                 </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card card1" >
+                <div class="card card1" data-aos="slide-left">
                   <div class="card-body">
                     <h2 class="card-title">Mobile Responsive</h2>
                     <img src="./image/Feature Icons/08.png" alt="" class="card-img-down">
@@ -226,6 +225,17 @@
       </div>
     </footer>
   </body>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 250,
+      duration: 1000,
+    });
+  </script>
+
+
+
 </html>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
