@@ -1,0 +1,77 @@
+.main{
+    background-color: rgb(230, 230, 230);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px black;
+}
+
+.sider{
+    background-color: rgb(230, 230, 230);
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 40px;
+    color: rgb(80, 80, 80);
+}
+.sider ul li a img{
+   width: 20px;
+}
+
+.sider ul li a  {
+    color: rgb(129, 129, 129);
+}
+.sider .menu-img1{
+    margin-bottom: 20px;
+}
+
+.sider .menu-img2{
+    margin-top: 20px;
+    width: 150px;
+}
+
+.title p a{
+    font-size: 16px;
+    font-weight: bold;
+}
+.title p{
+    margin-top: 10px;
+}
+
+.inner{
+    width: 100%;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.inner .note{
+    
+    font-size: 17px;
+    font-weight: bold;
+    color: lightsalmon;
+}
+.inner img{
+    width: 25px;
+}
+
+.frm{
+    margin: 25px 10px 0px 20px;
+}
+
+.btn{
+    box-shadow: 3px 4px 10px rgb(66, 66, 66) ;
+}
+
+.frm .fa{
+    font-size: 25px;
+}
+
+.fa-check-circle-o{
+    color: lightgreen;
+}
+
+.fa-times{
+    color: rgb(255, 0, 0);
+}

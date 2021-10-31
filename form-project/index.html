@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+            <body>
+                  <div class="container main">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 sider col-12 text-center">
+                          <img src="./image/brand.png" alt="" class="menu-img1 ">
+                            <ul class="nav flex-md-column text-left">
+                                <li class="nav-item"><a href="" class="nav-link"><img src="./image/dashboard.png" alt="" class="mr-2">  Dashboard</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"><img src="./image/book.png" alt="" class="mr-2"> Select Chapter</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"><img src="./image/teacher.png" alt="" class="mr-2"> My Class</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"><img src="./image/student.png" alt="" class="mr-2"> Class Forum</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"><img src="./image/prograce.png" alt="" class="mr-2"> My Progress</a></li>
+                                <li class="nav-item"><a href="" class="nav-link"><img src="./image/notes.png" alt="" class="mr-2"> My Diary</a></li>
+                            </ul>
+                          <img src="./image/tree.png" alt="" class="menu-img2 ">
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-12 inner">
+                          <div class="row">
+                            <div class="col-4 ml-sm-4 ">
+                              <h2>Setting</h2>
+                            </div>
+                            <div class="col text-right topnote">
+                              <div class="note">
+                                <img src="./image/flug.png" alt="">
+                                <img src="./image/notification.png" alt="" class="mr-sm-2">
+                                <img src="./image/teched-logo1.png" alt="" style="width: 60px;" class="teched">
+                                <label class="ml-2" for="">mohd faruk</label>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <div class="row">
+                                <div class="col">
+                                  <form class="frm">
+                                  <div class="form-row mb-1">
+                                      <div class="form-group  col-md-3 title ">
+                                          <img src="./image/teched-logo1.png" alt="" style="width: 100px;">
+                                          <p><a href="" >Change Picture</a></p>  
+                                      </div>
+                                    <div class="form-group col-sm col-11 ">
+                                      <label for="inputEmail4 ">First Name</label>
+                                      <input type="text" class="form-control " id="inputEmail4" placeholder="firstname" style="display: inline;" value=""> 
+                                      <label for="inputEmail4" class="my-2">Second Name</label>
+                                      <input type="text" class="form-control" id="inputEmail4" placeholder="secondname"> 
+                                    </div>
+                                    <!-- <div class="offset-1"></div> -->
+                                    <div class="form-group col-sm col-11">
+                                      <label for="inputPassword4">Birthday</label>
+                                      <input type="date" class="form-control" id="inputPassword4" placeholder="Password" value="">
+                                    </div>
+                                  </div>
+                                  <div class="form-group row m-top-2">
+                                    <label for="inputAddress2" class="col-lg-3 col-sm-4">Mobile No.</label>
+                                    <input onkeyup="check(this)" type="number" class="form-control col-lg-4 col-sm-6 col-10 ml-sm-0 ml-3" style="width:200px;" id="inputAddress2" value="" placeholder="9012768323" >
+                                    <i class="fa fa-check-circle-o" style="display: none;" id="nofirst" aria-hidden="true"></i>
+                                    <i class="fa fa-times" style="display: none;" id="nosecond" aria-hidden="true"></i>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label for="inputAddress2" class="col-lg-3 col-sm-4">Email</label>
+                                    <input type="text" onkeyup="emailcheck(this)" class="form-control col-lg-4 col-sm-6 col-10 ml-sm-0 ml-3" value="" style="width:200px;"  id="inputAddress2" placeholder="name@76gmail.com" >
+                                    <i class="fa fa-check-circle-o" style="display: none;" id="email1" aria-hidden="true"></i>
+                                    <i class="fa fa-times" aria-hidden="true" style="display: none;" id="email2"></i>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label for="inputAddress2" class="col-lg-3 col-sm-4">Old password</label>
+                                    <input type="password" class="form-control col-lg-4 col-sm-6 col-10 ml-sm-0 ml-3" style="width:200px;" id="oldpwd" placeholder="Old password" value="">
+                                    <label for=""><i class="fa fa-eye-slash"  aria-hidden="true" style="display: none;" id="oldlabel1" onclick="nodisplay1(this)"></i></label>
+                                    <label for=""><i class="fa fa-eye" aria-hidden="true" onclick="display1(this)" id="oldlabel2" ></i></label>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label for="inputAddress2" class="col-lg-3 col-sm-4">New password</label>
+                                    <input type="password" class="form-control col-lg-4 col-sm-6 col-10 ml-sm-0 ml-3" style="width:200px;" id="newpwd"  placeholder="New password" value="">
+                                    <label for=""><i class="fa fa-eye-slash" aria-hidden="true" style="display: none;" id="newlabel1" onclick="nodisplay2(this)"></i></label>
+                                    <label for=""><i class="fa fa-eye" aria-hidden="true" id="newlabel2" onclick="display2(this)"></i></label>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label for="inputAddress2" class="col-lg-3 col-sm-4">Confirm password</label>
+                                    <input type="password" class="form-control col-lg-4 col-sm-6 col-10 ml-sm-0 ml-3" style="width:200px;" id="repwd" placeholder="Confirm password" value="" >
+                                    <label for=""><i class="fa fa-eye-slash" aria-hidden="true" style="display: none;" id="relabel1" onclick="nodisplay3(this)"></i></label>
+                                    <label for=""><i class="fa fa-eye" aria-hidden="true" id="relabel2" onclick="display3(this)"></i></label>
+                                  </div>
+                                 <div class="row">
+                                   <div class="col-12 text-center">
+                                    <button type="submit" onclick="return fill()" class="btn btn-success mr-5 mt-3">Apply</button>
+                                    <button type="reset" class="btn btn-danger mt-3">Cancel</button>
+                                   </div>
+                                 </div>
+                                </form>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </body>
+</html>
+<script src="./js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
