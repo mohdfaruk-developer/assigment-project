@@ -2,8 +2,14 @@
 function check(x){
     var ch=x.value.length;
     if(ch==10){
-        document.getElementById("nofirst").style="display:block;"
-        document.getElementById("nosecond").style="display:none;"
+        if(x.value>=7000000000){
+            document.getElementById("nofirst").style="display:block;"
+            document.getElementById("nosecond").style="display:none;"
+        }
+        else{
+            document.getElementById("nofirst").style="display:none;"
+            document.getElementById("nosecond").style="display:display;"
+        }
     }
     else{
         document.getElementById("nofirst").style="display:none;"
@@ -78,13 +84,23 @@ function fill(){
         }
     }
     var ch=x.elements[3].value.length;
-    if(ch==10);
+    if(ch==10){
+        if(x.elements[3].value>=7000000000){
+            document.getElementById("nofirst").style="display:block;"
+            document.getElementById("nosecond").style="display:none;"
+        }
+        else{
+            x.elements[3].focus()
+            alert("Please Enter Valid Number")
+            return false
+        }
+    }
     else{
         x.elements[3].focus()
         alert("Please Enter Valid Number")
         return false
     }
-    var mail=/^[A-Za-z._]{3,}[0-9]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,7}$/;
+    var mail=/^[A-Za-z0-9._]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,7}$/;
     if(x.elements[4].value.match(mail));
     else{
             x.elements[4].focus()
